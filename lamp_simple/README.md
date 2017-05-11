@@ -23,33 +23,33 @@ Once done, you can check the results by browsing to http://localhost/index.php.
 You should see a simple test page and a list of databases retrieved from the
 database server.
 
-├── group_vars
-│   ├── all
-│   └── dbservers
-├── hosts
-├── README.md
-├── roles
-│   ├── common
-│   │   ├── handlers
-│   │   │   └── main.yml
-│   │   ├── tasks
-│   │   │   └── main.yml
-│   │   └── templates
-│   │       └── ntp.conf.j2
-│   ├── db
-│   │   ├── handlers
-│   │   │   └── main.yml
-│   │   ├── tasks
-│   │   │   └── main.yml
-│   │   └── templates
-│   │       └── my.cnf.j2
-│   └── web
-│       ├── handlers
-│       │   └── main.yml
-│       ├── tasks
-│       │   ├── copy_code.yml
-│       │   ├── install_httpd.yml
-│       │   └── main.yml
-│       └── templates
-│           └── index.php.j2
-└── site.yml
+	├── group_vars
+	│   ├── all
+	│   └── dbservers
+	├── hosts
+	├── README.md
+	├── roles
+	│   ├── common
+	│   │   ├── handlers
+	│   │   │   └── main.yml
+	│   │   ├── tasks
+	│   │   │   └── main.yml
+	│   │   └── templates
+	│   │       └── ntp.conf.j2
+	│   ├── db
+	│   │   ├── handlers
+	│   │   │   └── main.yml
+	│   │   ├── tasks
+	│   │   │   └── main.yml
+	│   │   └── templates
+	│   │       └── my.cnf.j2
+	│   └── web
+	│       ├── handlers
+	│       │   └── main.yml
+	│       ├── tasks
+	│       │   ├── copy_code.yml
+	│       │   ├── install_httpd.yml
+	│       │   └── main.yml
+	│       └── templates
+	│           └── index.php.j2
+	└── site.yml
