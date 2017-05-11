@@ -13,13 +13,13 @@ This LAMP stack can be on a single node or multiple nodes. The inventory file
 	[dbservers]
 	192.168.1.2
 
-Here the webserver would be configured on the local host and the dbserver on a
-server called "bensible". The stack can be deployed using the following
+Here the webserver would be configured on the 192.168.1.1 and the dbserver on a
+server called "192.168.1.2". The stack can be deployed using the following
 command:
 
         ansible-playbook -i hosts site.yml
 
-Once done, you can check the results by browsing to http://localhost/index.php.
+Once done, you can check the results by browsing to http://192.168.1.1/index.php.
 You should see a simple test page and a list of databases retrieved from the
 database server.
 
