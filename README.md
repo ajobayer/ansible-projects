@@ -4,7 +4,6 @@ _simple-web-db-lb-template_
 
 		├── ansible.cfg
 		├── control.yml
-		├── database.yml
 		├── demo
 		│   ├── app
 		│   │   ├── demo.py
@@ -13,6 +12,8 @@ _simple-web-db-lb-template_
 		│   └── demo.conf
 		├── dev
 		├── loadbalancer.yml
+		├── webserver.yml
+		├── database.yml
 		├── playbooks
 		│   ├── hostname.yml
 		│   ├── stack_restart.yml
@@ -80,7 +81,7 @@ _simple-web-db-lb-template_
 		│           └── main.yml
 		├── templates
 		│   └── nginx.conf.j2
-		└── webserver.yml
+		
 
 
 
